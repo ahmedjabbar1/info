@@ -32,14 +32,14 @@ def run ():
                             bot.send_action(chat_id,'typing')
                             key = json.dumps(
                             {'inline_keyboard':[[
-                            {'text':'Developer 👓','url':'https://telegram.me/helpsudo_tv'},
-                            {'text':'team 🔌','url':'https://telegram.me/superspark'}
+                            {'text':'Developer 👓','url':'https://telegram.me/DevToP'},
+                            {'text':'team 🔌','url':'https://telegram.me/devtop'}
                             ],
                             [
-                            {'text':'Your Info 🕶','url':'https://telegram.me/userinfobot'}
+                            {'text':'Your Info 🕶','url':'https://telegram.me/Pythoneinfobot'}
                             ],
                             [
-                            {'text':'my dev','url':'https://telegram.me/m_1_h'}
+                            {'text':'my dev','url':'https://telegram.me/ahmedjabbar1'}
                             ]
                             ]
                             })
@@ -49,14 +49,14 @@ def run ():
                             bot.send_action(chat_id,'typing')
                             key = json.dumps(
                             {'inline_keyboard':[[
-                            {'text':'المعلم','url':'https://telegram.me/m_1_h'},
-                            {'text':'محمد','url':'https://telegram.me/'}
+                            {'text':'bot Dev','url':'https://telegram.me/Ahmedjabbar1'},
+                            {'text':'Ch dev',url':'https://telegram.me/p444p'}
                             ],
                             [
-                            {'text':'كاسبر','url':'https://telegram.me/kasper_dev'}
+                            {'text':'channel','url':'https://telegram.me/DevToP'}
                             ],
                             [
-                            {'text':'حمادة','url':'https://telegram.me/HI_DEBYE'}
+                            {'text':'Dev','url':'https://telegram.me/ahmedjabbar1}
                             ]
                             ]
                             })
@@ -75,15 +75,15 @@ def run ():
                             markup = json.dumps({
                             'inline_keyboard':[
                             [
-                            {'text':'👇 helpsudo_tv 👇','callback_data':'1'}
+                            {'text':'👇 DeVToP 👇','callback_data':'1'}
                             ],
                             [
-                            {'text':'Developer 🕶','url':'https://telegram.me/superspark'},
-                            {'text':'Channel','url':'https://telegram.me/helpsudo_tv'}
+                            {'text':'Developer 🕶','url':'https://telegram.me/ahmedjabbar1'},
+                            {'text':'Channel','url':'https://telegram.me/DevToP'}
                             ]
                             ]
                             })
-                            bot.send_photo(chat_id,open('photo_2016-10-14_17-31-55.jpg'),caption='ch @helpsudo_tv',reply_markup=markup)
+                            bot.send_photo(chat_id,open('photo_2016-10-14_17-31-55.jpg'),caption='ch @DevToP',reply_markup=markup)
                         if(command == '/info' or command == '/start info'):
                             bot.getUpdates(last_update+1)
                             bot.send_action(chat_id,'typing')
@@ -99,7 +99,7 @@ def run ():
                             ]
                             }
                             )
-                            bot.send_photo_file_id(chat_id,photo=s['result']['photos'][0][2]['file_id'],caption='🔺- ID : {}\n🔺- Username : @{}\n🔺- ch :  @helpsudo_tv'.format(user_id,username),reply_markup=markup)
+                            bot.send_photo_file_id(chat_id,photo=s['result']['photos'][0][2]['file_id'],caption='🔺- ID : {}\n🔺- Username : @{}\n🔺- ch :  @DevToP'.format(user_id,username),reply_markup=markup)
                         if(command == '/type'):
                             if(update['message']['reply_to_message']['entities'][0]['type']):
                                 msg = update['message']['reply_to_message']['entities'][0]['type']
@@ -109,9 +109,3 @@ def run ():
 
 run()
 
-#البوت قيد التطوير ماحاجة تغير الحقوق مو جاهل
-#⚠️Sudo Source : @m_1_h
-#🚭Channel 1 : @helpsudo_tv
-#🌐Channel 2 : @dev_kasper
-#🎦Channel 3 : @superspark
-#🛄Channel 4 : @action_ch
